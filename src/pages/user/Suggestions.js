@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Container, Typography} from '@mui/material';
+// import { Container, Typography} from '@mui/material';
+import  Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
 import SuggestionCard from './Suggestions/SuggestionCards';
 import './index.css';
 import UserActionsList from './Suggestions/UserActionList';

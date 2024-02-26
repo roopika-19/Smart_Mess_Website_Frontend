@@ -1,4 +1,9 @@
-import { Card, Container, Stack, Typography } from '@mui/material';
+// import { Card, Container, Stack, Typography } from '@mui/material';
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+
 import React, { useState, useEffect } from 'react';
 import { Select } from 'antd';
 import { LineChart, CartesianGrid, XAxis, YAxis, Tooltip, Line, Legend, ResponsiveContainer } from 'recharts';

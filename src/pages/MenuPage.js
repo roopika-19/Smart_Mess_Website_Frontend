@@ -1,4 +1,9 @@
-import { Card, Container, Stack, Typography } from '@mui/material';
+// import { Card, Container, Stack, Typography } from '@mui/material';
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+
 import { Table } from 'antd';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';

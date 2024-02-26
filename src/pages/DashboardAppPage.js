@@ -4,7 +4,11 @@ import { useNavigate } from 'react-router-dom';
 
 import { Card, Collapse, Spin } from 'antd';
 
-import { Container, Grid, Typography } from '@mui/material';
+// import { Container, Grid, Typography } from '@mui/material';
+import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+
 
 import { getDashTimeTable, getFoodItemRating } from '../utils/apis';
 

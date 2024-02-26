@@ -7,7 +7,13 @@ import StarIcon from '@mui/icons-material/Star';
 import { Helmet } from 'react-helmet-async';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import { Button, Container, Typography, Snackbar, Alert } from '@mui/material';
+// import { Button, Container, Typography, Snackbar, Alert } from '@mui/material';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import Typography from '@mui/material/Typography';
+import Snackbar from '@mui/material/Snackbar';
+import Alert from '@mui/material/Alert';
+
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import TextField from '@mui/material/TextField';

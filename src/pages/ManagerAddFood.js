@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Navigate } from 'react-router-dom';
 import { Button, Select, Form, Input } from "antd";
-import { Alert, Snackbar, Typography } from '@mui/material';
+// import { Alert, Snackbar, Typography } from '@mui/material';
+import Alert from '@mui/material/Alert';
+import Snackbar from '@mui/material/Snackbar';
+import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
